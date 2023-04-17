@@ -1,0 +1,33 @@
+{
+  "name": "edges-to-graph",
+  "version": "1.0.0",
+  "description": "This is a package that helps you convert an array of edges to a directed or undirected graph(adjacency list)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyhands2/edges-to-graph.git"
+  },
+  "keywords": [
+    "edges",
+    "graph",
+    "edges",
+    "to",
+    "graph",
+    "dorected",
+    "graphs",
+    "undirected",
+    "graphs",
+    "graphs",
+    "adjacency",
+    "list"
+  ],
+  "author": "Osagie Osemwota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyhands2/edges-to-graph/issues"
+  },
+  "homepage": "https://github.com/greyhands2/edges-to-graph#readme"
+}
