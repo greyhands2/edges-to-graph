@@ -1,4 +1,4 @@
-Edges-to-graph
+## Edges-to-graph
 
 This is a package that converts an Array of Edges into a Directed or Undirected Graph(Adjacency List).
 
