@@ -16,7 +16,7 @@ Example
 test.js
 
 ```javascript
-const {edgesToDirectedGraph, edgesToUndirectedGraph } =require('./index.js')
+const {edgesToDirectedGraph, edgesToUndirectedGraph } =require('edges-to-graph');
 
 
 
@@ -28,19 +28,19 @@ const main = async() => {
         ['m', 'k'],
         ['k', 'l'],
         ['o', 'n']
-     ]
+     ];
   
 
 
    
   
     edgesToDirectedGraph(edges, (err, graph)=>{
-        if(err) console.log(err.message)
-        console.log(graph)
-    })
+        if(err) console.log(err.message);
+        console.log(graph);
+    });
     //or use promise 
     let graph = await edgesToDirectedGraph(edges)
-    console.log(graph)
+    console.log(graph);
     //output
     /****
       { 
@@ -53,13 +53,13 @@ const main = async() => {
 
 
    edgesToUndirectedGraph(edges, (err, graph)=>{
-        if(err) console.log(err.message)
-        console.log(graph)
-   })
+        if(err) console.log(err.message);
+        console.log(graph);
+   });
    
    // or use promise
-   graph = await edgesToUndirectedGraph(edges)
-   console.log(graph)
+   graph = await edgesToUndirectedGraph(edges);
+   console.log(graph);
    //output
    /**** 
    {
