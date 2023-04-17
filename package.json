@@ -1,6 +1,6 @@
 {
   "name": "edges-to-graph",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a package that helps you convert an array of edges to a directed or undirected graph(adjacency list)",
   "main": "index.js",
   "scripts": {
